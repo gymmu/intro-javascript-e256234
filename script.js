@@ -18,3 +18,10 @@ function incrementCounter (){
   num = num + 1
   numberElement.textContent = num 
 }
+
+function decrementCounter (){
+  const textRunter= document.querySelector("#counter")
+  let num = parseInt(textRunter.textContent)
+  num = num - 1 
+  textRunter.textContent = num 
+}
