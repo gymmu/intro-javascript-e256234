@@ -43,5 +43,10 @@ function writeText(){
 }
 
 function addImage(){
-  const BildEinfügen= document.querySelector("#Image")
+  const myImage = document.createElement("img")
+  myImage.src = "https://img2.juzaphoto.com/001/shared_files/uploads/904215_l.jpg"
+  myImage.hight = 200
+  myImage.width = 200
+  document.querySelector("#image").appendChild(myImage)
+  
 }
